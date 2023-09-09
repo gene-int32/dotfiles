@@ -1,6 +1,6 @@
 # dotfiles
 
-## Windows Terminal
+### Windows Terminal
 
-## Starship cross-shell
+### Starship cross-shell
 [Starship](https://starship.rs/)
