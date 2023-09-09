@@ -2,4 +2,5 @@
 
 ## Windows Terminal
 
-## Starship cross-shell prompt
+## Starship cross-shell
+[Starship](https://starship.rs/)
