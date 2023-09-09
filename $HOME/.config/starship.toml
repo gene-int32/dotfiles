@@ -1,0 +1,61 @@
+# ~/.config/starship.toml
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Timeout for commands executed by starship
+command_timeout = 1000
+
+# Configure the format of the prompt
+format = """
+$os\
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status
+$character"""
+
+# Shows OS
+[os]
+format = '[$symbol](bold white) '
+disabled = false
+
+[os.symbols]
+Windows = ''
+Arch = '󰣇'
+Ubuntu = ''
+Macos = '󰀵'
+
+# Shows the username
+[username]
+style_user = 'bold white'
+style_root = 'bold red'
+format = '[$user@]($style)'
+show_always = true
+disabled = false
+
+# Shows the hostname
+[hostname]
+ssh_only = false 
+format = '[$hostname](bold yellow): '
+disabled = false
+
+# Shows current directory
+[directory]
+format = '[$path]($style)[$read_only]($read_only_style) '
+read_only_style = '197'
+read_only = '  '
+truncation_symbol = '…/'
+
+# Shows current git branch
+[git_branch]
+format = 'via [$symbol\($branch\)]($style)'
+symbol = ''
+truncation_symbol = '…/'
+style = 'bold green'
+
+# Shows character
+[character]
+success_symbol = '[↪](bold cyan)'
+error_symbol = '[↪](bold red)'

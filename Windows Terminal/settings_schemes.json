@@ -1,0 +1,50 @@
+{
+  "schemes": [
+    {
+      "background": "#161719",
+      "black": "#2A2E33",
+      "blue": "#6E90B0",
+      "brightBlack": "#1D1F22",
+      "brightBlue": "#4B6B88",
+      "brightCyan": "#4D7B74",
+      "brightGreen": "#798431",
+      "brightPurple": "#6E5079",
+      "brightRed": "#8D2E32",
+      "brightWhite": "#5A626A",
+      "brightYellow": "#E58A50",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#7FBFB4",
+      "foreground": "#B7BCBA",
+      "green": "#B3BF5A",
+      "name": "Hybrid",
+      "purple": "#A17EAC",
+      "red": "#B84D51",
+      "selectionBackground": "#FFFFFF",
+      "white": "#B5B9B6",
+      "yellow": "#E4B55E"
+    },
+    {
+      "background": "#1C1E22",
+      "black": "#23252B",
+      "blue": "#6A7C93",
+      "brightBlack": "#23252B",
+      "brightBlue": "#6A7C93",
+      "brightCyan": "#3F94A8",
+      "brightGreen": "#5AB977",
+      "brightPurple": "#A4799D",
+      "brightRed": "#B8564D",
+      "brightWhite": "#EBEDF2",
+      "brightYellow": "#DEB566",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#3F94A8",
+      "foreground": "#E6E8EF",
+      "green": "#5AB977",
+      "name": "Neutron",
+      "purple": "#A4799D",
+      "red": "#B8564D",
+      "selectionBackground": "#FFFFFF",
+      "white": "#E6E8EF",
+      "yellow": "#DEB566"
+    }
+  ]
+}
